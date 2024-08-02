@@ -3,7 +3,7 @@ import utlis
 
 webcam = False
 path = '6.jpg'
-droidcam_url = 'http://192.168.1.103:4747/mjpegfeed?640x480'
+droidcam_url = 'YOUR_DROID_CAM_URL'
 cap = cv2.VideoCapture(0)
 cap.set(10,160)
 cap.set(3,1920)
